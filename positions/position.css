@@ -1,0 +1,42 @@
+div {
+  height: 100px;
+  width: 100px;
+  background-color: aquamarine;
+  border: 2px solid black;
+  display: inline-block;
+}
+
+#box1 {
+  position: static;
+  background-image: url(/images/fujiphilm-h2xG7FQbmcI-unsplash.jpg);
+  background-size: cover;
+}
+#box2 {
+  position: relative;
+  top: 50px;
+  right: 50px;
+  z-index: -1;
+  background-image: url(/images/mulyadi-Jb6u_B7bK40-unsplash.jpg);
+  background-size: cover;
+}
+#box3 {
+  position: absolute;
+  right: 50px;
+  top: 200px;
+  background-image: url(/images/mulyadi-jTWTBhVQ27w-unsplash.jpg);
+  background-size: cover;
+}
+#box4 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  background-image: url(/images/taylor-williams-vMLFbB6dmZ0-unsplash.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#box5 {
+  position: sticky;
+  top: 0px;
+  background-image: url(/images/jason-leung-T844CLUxqvE-unsplash.jpg);
+  background-size: contain;
+}
