@@ -1,0 +1,23 @@
+/* div {
+    background-color: skyblue;
+    display: inline;
+} */
+ div {
+    height: 100px;
+    width: 100px;
+    margin: 25px;
+    padding: 10px;
+    display: inline-block;
+ }
+/* button{
+    display: block;
+} */
+#a {
+    background-color: red;
+}
+#b{
+    background-color: green;
+}
+#c{
+    background-color: blue;
+}

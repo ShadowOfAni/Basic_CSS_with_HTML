@@ -1,0 +1,22 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration:none;
+}
+#navbar {
+    height: 50px;
+
+    background-color: black;
+}
+#logo{
+    color: orange;
+    font-size: 25px;
+    margin-left: 20px;
+}
+a{
+    color:white;
+    margin-right: 200px;
+}
+button{
+    background-color: orange;
+}
