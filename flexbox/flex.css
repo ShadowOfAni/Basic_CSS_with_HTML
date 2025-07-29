@@ -3,13 +3,16 @@
 }
 #container {
   height: 300px;
-  width: 800px;
+  width: 750px;
   border: 2px solid black;
   display: flex;
   flex-direction: row;
-  /*: row-reverce/column/column-reverce*/
-  justify-content: space-between;
-  /* : spacs-around/space-evenly/flex-start/flex-end/center*/
+              /*: row-reverce/column/column-reverce*/
+  justify-content: center;
+              /* : space-between/spacs-around/space-evenly/flex-start/flex-end/center*/
+  /* flex-wrap: wrap; */
+  /* align-items: center; */
+  /* align-content: center; */
 }
 div {
   height: 100px;
@@ -19,16 +22,22 @@ div {
 }
 #box1 {
   background-color: rgb(20, 218, 70);
+  
 }
 #box2 {
   background-color: rgb(240, 130, 12);
+  height: 75px;
+  /* flex-shrink: 2; */
+  flex-grow: 1;
 }
 #box3 {
   background-color: rgb(102, 10, 230);
+  height: 50px;
 }
 #box4 {
   background-color: rgb(255, 0, 106);
 }
 #box5 {
   background-color: rgb(238, 255, 0);
+  /* align-self: flex-end; */
 }

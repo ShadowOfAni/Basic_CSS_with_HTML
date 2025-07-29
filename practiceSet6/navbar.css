@@ -1,0 +1,30 @@
+ul{
+    background-color:rgb(212, 143, 24);
+    display: flex;
+    justify-content: space-evenly;
+}
+li{
+    list-style-type: none;
+    /* background-color: brown; */
+    border-radius: 5px;
+}
+a{ 
+    text-decoration: none;
+    
+    color: white;
+
+}
+
+.outer{
+    height: 150px;
+    width: 200px;
+    background-color: rgb(210, 138, 30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 75px;
+    width: 100px;
+    background-color: aquamarine;
+}
