@@ -1,0 +1,77 @@
+.color {
+  height: 75px;
+  width: 75px;
+  background-color: rgb(91, 253, 11);
+  border-radius: 50%;
+  text-align: center;
+  animation-name: coloranimate;
+  animation-duration: 0.25s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+@keyframes coloranimate {
+  from {
+    background-color: rgb(91, 253, 11);
+  }
+  to {
+    background-color: rgb(242, 13, 13);
+  }
+}
+.position {
+  height: 75px;
+  width: 75px;
+  background-color: rgb(253, 205, 11);
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 150px;
+  left: 50px;
+  /* animation-name: positionanimate;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+  animation: positionanimate 3s ease-in infinite alternate;
+}
+@keyframes positionanimate {
+  from {
+    left: 50px;
+    background-color: rgb(253, 205, 11);
+  }
+
+  to {
+    left: 500px;
+    background-color: darkblue;
+    color: white;
+  }
+}
+
+
+.position2 {
+  height: 75px;
+  width: 75px;
+  background-color: rgb(253, 205, 11);
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  top: 300px;
+  left: 50px;
+  animation: positionanimate2 2s infinite ease alternate;
+}
+@keyframes positionanimate2 {
+  0% {
+    left: 50px;
+    background-color: rgb(253, 205, 11);
+  }
+
+  50% {
+    background-color: rgb(240, 61, 12);
+    color: white;
+  }
+
+  100%{
+    left: 1000px;
+    background-color: mediumblue;
+    color: white;
+  }
+}

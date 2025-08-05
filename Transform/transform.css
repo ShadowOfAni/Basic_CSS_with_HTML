@@ -1,0 +1,49 @@
+.rotate {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(244, 193, 9);
+    border: 2px solid black;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    transform: rotate(45deg);
+}
+.scale {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(244, 193, 9);
+    border: 2px solid black;
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    transition: all 3s ease-in 1s;
+}
+.scale:hover{
+        transform: scale(1,2);
+}
+.translate {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(244, 193, 9);
+    border: 2px solid black;
+    position: absolute;
+    top: 300px;
+    left: 50px;
+    transition: all 3s ease-in ;
+}
+.translate:hover {
+    transform:translate(50px,100px);
+}
+.skew {
+    height: 50px;
+    width: 100px;
+    background-color: rgb(244, 193, 9);
+    border: 2px solid black;
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    transition: all 3s ease-in ;
+}
+.skew:hover {
+    transform:skew(45deg);
+}
